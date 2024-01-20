@@ -1,8 +1,10 @@
+import tools from '../../../assets/images/tools.jpeg';
+
 function WallpaperEnterprise() {
   return (
     <div className="max-h-auto " style={
       {
-        backgroundImage: `url(/src/assets/images/tools.jpeg)`,
+        backgroundImage: `url(${tools})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center center',
         backgroundRepeat: 'no-repeat',
